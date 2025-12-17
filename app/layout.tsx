@@ -1,5 +1,17 @@
 import type { Metadata } from "next";
+import { Libre_Franklin, Fraunces } from "next/font/google";
 import "./globals.css";
+
+const libreFranklin = Libre_Franklin({
+  variable: "--font-libre-franklin",
+  subsets: ["latin"],
+});
+
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
+  subsets: ["latin"],
+  axes: ["SOFT", "WONK"],
+});
 
 export const metadata: Metadata = {
   title: "Volunteer Portal Migration | Everybody Eats",
@@ -13,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className={`${libreFranklin.variable} ${fraunces.variable} antialiased`}>
         {children}
       </body>
     </html>
