@@ -20,11 +20,11 @@ export default function Home() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl mb-4">
-            Volunteer Portal Migration
-          </h1>
-          <p className="text-xl opacity-80 mb-8">
             We&apos;re Upgrading Our Volunteer Experience
-          </p>
+          </h1>
+          {/* <p className="text-xl opacity-80 mb-8">
+            We&apos;re Upgrading Our Volunteer Experience
+          </p> */}
 
           {/* CTA Above the Fold */}
           <div className="flex justify-center">
@@ -32,7 +32,7 @@ export default function Home() {
               href="https://volunteer.everybodyeats.nz"
               className="btn btn-primary text-lg"
             >
-              Visit New Volunteer Portal
+              Go to New Volunteer Portal
               <svg
                 className="w-5 h-5 ml-2"
                 fill="none"
