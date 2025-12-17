@@ -1,24 +1,24 @@
-# Volunteer Portal Migration Landing Page
+# 🌟 Volunteer Portal Migration Landing Page
 
 A Next.js landing page providing information about the migration from the legacy volunteer application to the new Everybody Eats Volunteer Portal.
 
-## Overview
+## 📖 Overview
 
 This is a simple informational landing page built with Next.js 16, TypeScript, and Tailwind CSS. It communicates the transition from the legacy volunteer app to the new volunteer portal and provides users with key information about the migration.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Next.js 16.0.3** - React framework with App Router
-- **TypeScript** - Type-safe development
-- **Tailwind CSS 4** - Utility-first CSS framework
-- **React 19** - UI library
+- **Next.js 16.0.3** ⚡ - React framework with App Router
+- **TypeScript** 📘 - Type-safe development
+- **Tailwind CSS 4** 🎨 - Utility-first CSS framework
+- **React 19** ⚛️ - UI library
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js 20 or higher
-- npm
+- Node.js 20 or higher 📦
+- npm 📥
 
 ### Installation
 
@@ -38,16 +38,16 @@ npm install
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+4. Open [http://localhost:3000](http://localhost:3000) in your browser 🌐
 
-## Available Scripts
+## 📜 Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm start` - Start production server
-- `npm run lint` - Run ESLint
+- `npm run dev` - 🔥 Start development server
+- `npm run build` - 📦 Build for production
+- `npm start` - ▶️ Start production server
+- `npm run lint` - ✅ Run ESLint
 
-## Deployment
+## 🚢 Deployment
 
 This project is designed to be deployed on Vercel:
 
@@ -60,39 +60,38 @@ npm run build
 npm start
 ```
 
-## Customization
+## ✏️ Customization
 
 To update the landing page content, edit the main page component at `app/page.tsx`.
 
 Key sections you might want to customize:
-- Migration timeline and dates
-- Contact email address
-- New portal URL
-- Features and benefits list
+- 📅 Migration timeline and dates
+- 📧 Contact email address
+- 🔗 New portal URL
+- ✨ Features and benefits list
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 volunteer-portal-migration-landing/
 ├── app/
-│   ├── globals.css          # Global styles
-│   ├── layout.tsx           # Root layout
-│   └── page.tsx             # Main landing page
-├── public/                  # Static assets
+│   ├── globals.css          # 🎨 Global styles
+│   ├── layout.tsx           # 📐 Root layout
+│   └── page.tsx             # 📄 Main landing page
+├── public/                  # 🖼️ Static assets
 ├── .gitignore
-├── eslint.config.mjs        # ESLint configuration
-├── next.config.ts           # Next.js configuration
+├── eslint.config.mjs        # 🔍 ESLint configuration
+├── next.config.ts           # ⚙️ Next.js configuration
 ├── package.json
-├── postcss.config.mjs       # PostCSS configuration
+├── postcss.config.mjs       # 🎨 PostCSS configuration
 ├── README.md
-├── tailwind.config.ts       # Tailwind CSS configuration
-└── tsconfig.json            # TypeScript configuration
+└── tsconfig.json            # 📘 TypeScript configuration
 ```
 
-## Related Projects
+## 🔗 Related Projects
 
-- [volunteer-portal](https://github.com/everybody-eats-nz/volunteer-portal) - The new volunteer portal application
+- [volunteer-portal](https://github.com/everybody-eats-nz/volunteer-portal) - The new volunteer portal application 🎯
 
-## License
+## 📄 License
 
 Copyright © 2025 Everybody Eats. All rights reserved.

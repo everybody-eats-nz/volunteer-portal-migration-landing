@@ -31,7 +31,7 @@ export default function Home() {
               href="https://volunteers.everybodyeats.nz"
               className="btn btn-primary text-lg"
             >
-              Go to New Volunteer Portal
+              Go to our New Volunteer Portal
               <svg
                 className="w-5 h-5 ml-2"
                 fill="none"
@@ -219,7 +219,7 @@ export default function Home() {
             href="https://volunteers.everybodyeats.nz"
             className="btn btn-primary text-lg"
           >
-            Go to New Volunteer Portal
+            Go to our New Volunteer Portal
             <svg
               className="w-5 h-5 ml-2"
               fill="none"
