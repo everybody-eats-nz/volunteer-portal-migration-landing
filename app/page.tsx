@@ -1,11 +1,22 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="min-h-screen">
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
+          <div className="flex justify-center mb-6">
+            <Image
+              src="/logo.svg"
+              alt="Everybody Eats"
+              width={200}
+              height={80}
+              priority
+            />
+          </div>
           <h1 className="text-4xl sm:text-5xl mb-4">
-            Everybody Eats Volunteer Portal
+            Volunteer Portal Migration
           </h1>
           <p className="text-xl opacity-80">
             We&apos;re Upgrading Our Volunteer Experience
