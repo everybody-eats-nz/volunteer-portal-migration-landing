@@ -118,7 +118,7 @@ export default function Home() {
               <span className="leading-relaxed">
                 <strong>Haven&apos;t received the email?</strong> Please{" "}
                 <a
-                  href="mailto:volunteers@everybodyeats.nz"
+                  href="mailto:volunteers@everybodyeats.nz?subject=Migration%20Invitation%20Email%20Not%20Received"
                   className="hover:underline"
                   style={{ color: "var(--ee-primary)" }}
                 >
@@ -204,7 +204,7 @@ export default function Home() {
             email, or need assistance accessing the new portal, please contact
             us at{" "}
             <a
-              href="mailto:volunteers@everybodyeats.nz"
+              href="mailto:volunteers@everybodyeats.nz?subject=Volunteer%20Portal%20Migration%20Support"
               className="hover:underline"
               style={{ color: "var(--ee-primary)" }}
             >
