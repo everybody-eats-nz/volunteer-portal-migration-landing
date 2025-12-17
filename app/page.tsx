@@ -116,17 +116,24 @@ export default function Home() {
                 />
               </svg>
               <span className="leading-relaxed">
-                <strong>Haven&apos;t received the email?</strong> Please contact
-                us and we&apos;ll help you get set up
+                <strong>Haven&apos;t received the email?</strong> Please{" "}
+                <a
+                  href="mailto:volunteers@everybodyeats.nz"
+                  className="hover:underline"
+                  style={{ color: "var(--ee-primary)" }}
+                >
+                  contact us
+                </a>{" "}
+                and we&apos;ll help you get set up
               </span>
             </li>
           </ul>
 
           <h2 className="text-2xl mb-4">For New Volunteers</h2>
           <p className="mb-6 leading-relaxed">
-            If you&apos;re new to volunteering with Everybody Eats, you can
-            sign up directly through the new volunteer portal. Click the button
-            above to get started!
+            If you&apos;re new to volunteering with Everybody Eats, you can sign
+            up directly through the new volunteer portal. Click the button above
+            to get started!
           </p>
 
           <h2 className="text-2xl mb-4">What&apos;s New?</h2>
@@ -185,7 +192,8 @@ export default function Home() {
                 />
               </svg>
               <span className="leading-relaxed">
-                New features including achievements, group bookings, and more
+                New features including achievements, seeing your shift history,
+                and more
               </span>
             </li>
           </ul>
