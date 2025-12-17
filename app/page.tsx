@@ -4,26 +4,37 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+        <div className="flex justify-center mb-6">
+          <Image
+            src="/logo.svg"
+            alt="Everybody Eats"
+            width={200}
+            height={80}
+            priority
+            style={{
+              filter:
+                "invert(1) hue-rotate(180deg) saturate(2) brightness(0.4)",
+            }}
+          />
+        </div>
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="flex justify-center mb-6">
-            <Image
-              src="/logo.svg"
-              alt="Everybody Eats"
-              width={200}
-              height={80}
-              priority
-              style={{
-                filter: 'invert(1) hue-rotate(180deg) saturate(2) brightness(0.4)',
-              }}
-            />
-          </div>
           <h1 className="text-4xl sm:text-5xl mb-4">
             Volunteer Portal Migration
           </h1>
-          <p className="text-xl opacity-80">
+          <p className="text-xl opacity-80 mb-8">
             We&apos;re Upgrading Our Volunteer Experience
           </p>
+
+          {/* CTA Above the Fold */}
+          <div className="flex justify-center">
+            <a
+              href="https://volunteer.everybodyeats.nz"
+              className="btn btn-primary text-lg"
+            >
+              Visit New Volunteer Portal
+            </a>
+          </div>
         </div>
 
         {/* Main Content */}
@@ -32,7 +43,7 @@ export default function Home() {
           <p className="mb-6 leading-relaxed">
             We&apos;re transitioning from our legacy volunteer application to a
             new, improved volunteer portal. This upgrade brings a better user
-            experience, enhanced features, and improved reliability for all our
+            experience, enhanced features, and improved security for all our
             volunteers.
           </p>
 
@@ -116,13 +127,6 @@ export default function Home() {
               </span>
             </li>
           </ul>
-
-          <h2 className="text-2xl mb-4">Timeline</h2>
-          <p className="mb-6 leading-relaxed">
-            The migration is currently in progress. We&apos;ll notify all
-            volunteers via email with specific dates and instructions for
-            accessing the new portal.
-          </p>
 
           <h2 className="text-2xl mb-4">Need Help?</h2>
           <p className="leading-relaxed">
