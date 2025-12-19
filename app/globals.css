@@ -96,6 +96,18 @@ h6 {
   background: linear-gradient(135deg, var(--ee-primary-700), var(--ee-primary));
 }
 
+.btn-outline {
+  border-style: var(--tw-border-style);
+  border-width: 2px;
+  border-color: var(--ee-primary);
+  color: var(--ee-primary);
+  background: none;
+}
+
+.btn-outline:hover {
+  background: var(--color-green-200);
+}
+
 /* Enhanced cards */
 .card {
   @apply border rounded-xl;

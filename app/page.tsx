@@ -199,12 +199,26 @@ export default function Home() {
           </ul>
 
           <h2 className="text-2xl mb-4">Need Help?</h2>
-          <div className="mb-6 flex justify-center">
+
+          <p className="leading-relaxed">
+            If you have any questions, haven&apos;t received your invitation
+            email, or need assistance accessing the new portal, please contact
+            us at{" "}
+            <a
+              href="mailto:volunteers@everybodyeats.nz?subject=Volunteer%20Portal%20Migration%20Support"
+              className="hover:underline"
+              style={{ color: "var(--ee-primary)" }}
+            >
+              volunteers@everybodyeats.nz
+            </a>
+          </p>
+
+          <div className="mt-6 flex justify-center">
             <a
               href="https://mtzmhxvvkutbqvazgwyl.supabase.co/storage/v1/object/public/resource-hub/resources/1766109660428-0slfoo-new_volunteer_platform_faq_document_december_2025_1.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-primary text-lg"
+              className="btn btn-outline text-lg"
             >
               <svg
                 className="w-5 h-5 mr-2"
@@ -222,18 +236,6 @@ export default function Home() {
               View Volunteer Platform FAQ
             </a>
           </div>
-          <p className="leading-relaxed">
-            If you have any questions, haven&apos;t received your invitation
-            email, or need assistance accessing the new portal, please contact
-            us at{" "}
-            <a
-              href="mailto:volunteers@everybodyeats.nz?subject=Volunteer%20Portal%20Migration%20Support"
-              className="hover:underline"
-              style={{ color: "var(--ee-primary)" }}
-            >
-              volunteers@everybodyeats.nz
-            </a>
-          </p>
         </div>
 
         {/* CTA Button */}
