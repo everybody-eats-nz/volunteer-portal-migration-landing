@@ -199,6 +199,19 @@ export default function Home() {
           </ul>
 
           <h2 className="text-2xl mb-4">Need Help?</h2>
+          <p className="leading-relaxed mb-4">
+            For answers to common questions, check out our{" "}
+            <a
+              href="https://mtzmhxvvkutbqvazgwyl.supabase.co/storage/v1/object/public/resource-hub/resources/1766109660428-0slfoo-new_volunteer_platform_faq_document_december_2025_1.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+              style={{ color: "var(--ee-primary)" }}
+            >
+              Volunteer Platform FAQ
+            </a>
+            .
+          </p>
           <p className="leading-relaxed">
             If you have any questions, haven&apos;t received your invitation
             email, or need assistance accessing the new portal, please contact
