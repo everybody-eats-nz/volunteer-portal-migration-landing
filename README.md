@@ -23,17 +23,20 @@ This is a simple informational landing page built with Next.js 16, TypeScript, a
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/everybody-eats-nz/volunteer-portal-migration-landing.git
 cd volunteer-portal-migration-landing
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Run the development server:
+
 ```bash
 npm run dev
 ```
@@ -65,6 +68,7 @@ npm start
 To update the landing page content, edit the main page component at `app/page.tsx`.
 
 Key sections you might want to customize:
+
 - 📅 Migration timeline and dates
 - 📧 Contact email address
 - 🔗 New portal URL
@@ -91,6 +95,14 @@ volunteer-portal-migration-landing/
 ## 🔗 Related Projects
 
 - [volunteer-portal](https://github.com/everybody-eats-nz/volunteer-portal) - The new volunteer portal application 🎯
+
+## 👵 Old Laravel App
+
+DNS record for it is
+
+| Type | Name | Value           | TTL  | Proxied |
+| ---- | ---- | --------------- | ---- | ------- |
+| A    | app  | 139.180.181.139 | Auto | Yes     |
 
 ## 📄 License
 
